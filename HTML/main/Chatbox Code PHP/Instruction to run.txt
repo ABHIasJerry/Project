@@ -1,0 +1,6 @@
+Install XAMPP server on PC
+Make sure Apache & Mysql servers are running
+Copy all the files from this folder to "htdocs" folder in Xampp located under Installed drive -- Xampp
+
+Follow the video for instruction.
+Link from Youtube: https://www.youtube.com/watch?v=_XBeGcczFJo

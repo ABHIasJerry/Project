@@ -1,0 +1,8 @@
+ESP8266 Board MAC Address:  EC:FA:BC:5F:71:5F
+uint8_t broadcastAddress[] = {0xEC, 0xFA, 0xBC, 0x5F, 0x71, 0x5F};
+[ blue border nodemcu] will be used as slave/ receiver
+
+
+ESP8266 Board MAC Address:  98:CD:AC:28:81:DD
+uint8_t broadcastAddress[] = {0x98, 0xCD, 0xAC, 0x28, 0x81, 0xDD};
+[ remote nodemcu] will be used as master

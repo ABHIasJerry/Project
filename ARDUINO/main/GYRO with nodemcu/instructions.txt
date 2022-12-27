@@ -1,0 +1,15 @@
+link: https://mschoeffler.com/2017/10/05/tutorial-how-to-use-the-gy-521-module-mpu-6050-breakout-board-with-the-arduino-uno/
+
+GY-521 Pin Layout
+The GY-521 breakout has eight pins:
+
+VCC (The breakout board has a voltage regulator. Therefore, you can connect the board to 3.3V and 5V sources.)
+GND
+SCL (Serial Clock Line of the I2C protocol.)
+SDA (Serial Data Line of the I2C protocol.)
+XDA (Auxiliary data => I2C master serial data for connecting the module to external sensors.)
+XCL (Auxiliary clock => I2C master serial clock for connecting the module to external sensors.)
+AD0 (If this pin is LOW, the I2C address of the board will be 0x68. Otherwise, if the pin is HIGH, the address will be 0x69.)
+INT (Interrupt digital output)
+
+

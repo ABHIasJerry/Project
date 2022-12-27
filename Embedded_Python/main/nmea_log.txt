@@ -1,0 +1,731 @@
+----Welcome to GPS/GNSS/GLONASS/NavIC Tracking System By @Abhinaba Ghosh [© 2022-23]----
+Checksum Error Detected
+Checksum Error Detected
+Checksum Error Detected
+========================================GIGSV========================================
+Satellite total no of messages(1-9): 2
+Satellite message number: 1
+Satellites in view: 07
+Satellite PRN: 06
+Elevation (in deg): 00°
+Azimuth (deg): 000
+SNR (C/No) 00-99dB: 42 dB
+====================================GIGSV EOF========================================
+Checksum Error Detected
+========================================GIGSV========================================
+Satellite total no of messages(1-9): 2
+Satellite message number: 2
+Satellites in view: 07
+Satellite PRN: 07
+Elevation (in deg): 00°
+Azimuth (deg): 000
+SNR (C/No) 00-99dB: 24 dB
+====================================GIGSV EOF========================================
+Checksum Error Detected
+========================================GIRMC========================================
+Fix taken at: Wed Apr 09 06:52:14 2003 UTC
+Status (A=OK,V=KO): V
+Lat,Long: .N, .E
+Speed (knots): 000.0
+Track angle (deg): 000.0
+Magnetic variation:  
+Mode (A=Autonomous, D=Differential, E=Estimated, N=Data not valid): N
+====================================GIRMC EOF========================================
+Checksum Error Detected
+Checksum Error Detected
+Checksum Error Detected
+========================================GIGGA========================================
+Fix taken at: 06:52:15 UTC
+Lat,Long: .N, .E
+Fix quality (0 = invalid, 1 = fix, 2..8): G
+Satellites: 
+Horizontal dilution: 0.0
+Altitude: 0.0M
+Height of geoid: 0.0M
+Time in seconds since last DGPS update: 
+DGPS station ID number: 0000
+=====================================GIGGA EOF========================================
+Checksum Error Detected
+========================================GIGLL========================================
+Lat,Long: .N, .E
+Fix taken at: 06:52:15 UTC
+Status (A=OK,V=NOT OK): V
+Mode (A=Autonomous, D=Differential, E=Estimated, N=Data not valid, L= Looking): L
+===================================GIGLL EOF========================================
+Checksum Error Detected
+Checksum Error Detected
+========================================GIRMC========================================
+Fix taken at: Wed Apr 09 06:52:15 2003 UTC
+Status (A=OK,V=KO): V
+Lat,Long: .N, .E
+Speed (knots): 000.0
+Track angle (deg): 000.0
+Magnetic variation:  
+Mode (A=Autonomous, D=Differential, E=Estimated, N=Data not valid): N
+====================================GIRMC EOF========================================
+Checksum Error Detected
+Checksum Error Detected
+Checksum Error Detected
+========================================GIGGA========================================
+Fix taken at: 06:52:16 UTC
+Lat,Long: .N, .E
+Fix quality (0 = invalid, 1 = fix, 2..8): G
+Satellites: 
+Horizontal dilution: 0.0
+Altitude: 0.0M
+Height of geoid: 0.0M
+Time in seconds since last DGPS update: 
+DGPS station ID number: 0000
+=====================================GIGGA EOF========================================
+Checksum Error Detected
+========================================GIGLL========================================
+Lat,Long: .N, .E
+Fix taken at: 06:52:16 UTC
+Status (A=OK,V=NOT OK): V
+Mode (A=Autonomous, D=Differential, E=Estimated, N=Data not valid, L= Looking): L
+===================================GIGLL EOF========================================
+Checksum Error Detected
+Checksum Error Detected
+========================================GIRMC========================================
+Fix taken at: Wed Apr 09 06:52:16 2003 UTC
+Status (A=OK,V=KO): V
+Lat,Long: .N, .E
+Speed (knots): 000.0
+Track angle (deg): 000.0
+Magnetic variation:  
+Mode (A=Autonomous, D=Differential, E=Estimated, N=Data not valid): N
+====================================GIRMC EOF========================================
+Checksum Error Detected
+Checksum Error Detected
+Checksum Error Detected
+========================================GIGGA========================================
+Fix taken at: 06:52:17 UTC
+Lat,Long: .N, .E
+Fix quality (0 = invalid, 1 = fix, 2..8): G
+Satellites: 
+Horizontal dilution: 0.0
+Altitude: 0.0M
+Height of geoid: 0.0M
+Time in seconds since last DGPS update: 
+DGPS station ID number: 0000
+=====================================GIGGA EOF========================================
+Checksum Error Detected
+========================================GIGLL========================================
+Lat,Long: .N, .E
+Fix taken at: 06:52:17 UTC
+Status (A=OK,V=NOT OK): V
+Mode (A=Autonomous, D=Differential, E=Estimated, N=Data not valid, L= Looking): L
+===================================GIGLL EOF========================================
+Checksum Error Detected
+Checksum Error Detected
+========================================GIGSV========================================
+Satellite total no of messages(1-9): 2
+Satellite message number: 1
+Satellites in view: 07
+Satellite PRN: 06
+Elevation (in deg): 00°
+Azimuth (deg): 000
+SNR (C/No) 00-99dB: 42 dB
+====================================GIGSV EOF========================================
+Checksum Error Detected
+========================================GIGSV========================================
+Satellite total no of messages(1-9): 2
+Satellite message number: 2
+Satellites in view: 07
+Satellite PRN: 07
+Elevation (in deg): 00°
+Azimuth (deg): 000
+SNR (C/No) 00-99dB: 24 dB
+====================================GIGSV EOF========================================
+Checksum Error Detected
+========================================GIRMC========================================
+Fix taken at: Wed Apr 09 06:52:17 2003 UTC
+Status (A=OK,V=KO): V
+Lat,Long: .N, .E
+Speed (knots): 000.0
+Track angle (deg): 000.0
+Magnetic variation:  
+Mode (A=Autonomous, D=Differential, E=Estimated, N=Data not valid): N
+====================================GIRMC EOF========================================
+Checksum Error Detected
+Checksum Error Detected
+Checksum Error Detected
+========================================GIGGA========================================
+Fix taken at: 06:52:18 UTC
+Lat,Long: .N, .E
+Fix quality (0 = invalid, 1 = fix, 2..8): G
+Satellites: 
+Horizontal dilution: 0.0
+Altitude: 0.0M
+Height of geoid: 0.0M
+Time in seconds since last DGPS update: 
+DGPS station ID number: 0000
+=====================================GIGGA EOF========================================
+Checksum Error Detected
+========================================GIGLL========================================
+Lat,Long: .N, .E
+Fix taken at: 06:52:18 UTC
+Status (A=OK,V=NOT OK): V
+Mode (A=Autonomous, D=Differential, E=Estimated, N=Data not valid, L= Looking): L
+===================================GIGLL EOF========================================
+Checksum Error Detected
+Checksum Error Detected
+========================================GIRMC========================================
+Fix taken at: Wed Apr 09 06:52:18 2003 UTC
+Status (A=OK,V=KO): V
+Lat,Long: .N, .E
+Speed (knots): 000.0
+Track angle (deg): 000.0
+Magnetic variation:  
+Mode (A=Autonomous, D=Differential, E=Estimated, N=Data not valid): N
+====================================GIRMC EOF========================================
+Checksum Error Detected
+Checksum Error Detected
+Checksum Error Detected
+Checksum Error Detected
+Checksum Error Detected
+Checksum Error Detected
+========================================GIGGA========================================
+Fix taken at: 06:52:19 UTC
+Lat,Long: .N, .E
+Fix quality (0 = invalid, 1 = fix, 2..8): G
+Satellites: 
+Horizontal dilution: 0.0
+Altitude: 0.0M
+Height of geoid: 0.0M
+Time in seconds since last DGPS update: 
+DGPS station ID number: 0000
+=====================================GIGGA EOF========================================
+Checksum Error Detected
+========================================GIGLL========================================
+Lat,Long: .N, .E
+Fix taken at: 06:52:19 UTC
+Status (A=OK,V=NOT OK): V
+Mode (A=Autonomous, D=Differential, E=Estimated, N=Data not valid, L= Looking): L
+===================================GIGLL EOF========================================
+Checksum Error Detected
+Checksum Error Detected
+========================================GIRMC========================================
+Fix taken at: Wed Apr 09 06:52:19 2003 UTC
+Status (A=OK,V=KO): V
+Lat,Long: .N, .E
+Speed (knots): 000.0
+Track angle (deg): 000.0
+Magnetic variation:  
+Mode (A=Autonomous, D=Differential, E=Estimated, N=Data not valid): N
+====================================GIRMC EOF========================================
+Checksum Error Detected
+Checksum Error Detected
+Checksum Error Detected
+========================================GIGGA========================================
+Fix taken at: 06:52:20 UTC
+Lat,Long: .N, .E
+Fix quality (0 = invalid, 1 = fix, 2..8): G
+Satellites: 
+Horizontal dilution: 0.0
+Altitude: 0.0M
+Height of geoid: 0.0M
+Time in seconds since last DGPS update: 
+DGPS station ID number: 0000
+=====================================GIGGA EOF========================================
+Checksum Error Detected
+========================================GIGLL========================================
+Lat,Long: .N, .E
+Fix taken at: 06:52:20 UTC
+Status (A=OK,V=NOT OK): V
+Mode (A=Autonomous, D=Differential, E=Estimated, N=Data not valid, L= Looking): L
+===================================GIGLL EOF========================================
+Checksum Error Detected
+Checksum Error Detected
+========================================GIGSV========================================
+Satellite total no of messages(1-9): 2
+Satellite message number: 1
+Satellites in view: 07
+Satellite PRN: 06
+Elevation (in deg): 00°
+Azimuth (deg): 000
+SNR (C/No) 00-99dB: 42 dB
+====================================GIGSV EOF========================================
+Checksum Error Detected
+========================================GIGSV========================================
+Satellite total no of messages(1-9): 2
+Satellite message number: 2
+Satellites in view: 07
+Satellite PRN: 07
+Elevation (in deg): 00°
+Azimuth (deg): 000
+SNR (C/No) 00-99dB: 24 dB
+====================================GIGSV EOF========================================
+Checksum Error Detected
+========================================GIRMC========================================
+Fix taken at: Wed Apr 09 06:52:20 2003 UTC
+Status (A=OK,V=KO): V
+Lat,Long: .N, .E
+Speed (knots): 000.0
+Track angle (deg): 000.0
+Magnetic variation:  
+Mode (A=Autonomous, D=Differential, E=Estimated, N=Data not valid): N
+====================================GIRMC EOF========================================
+Checksum Error Detected
+Checksum Error Detected
+Checksum Error Detected
+Checksum Error Detected
+Checksum Error Detected
+========================================GIGGA========================================
+Fix taken at: 06:52:21 UTC
+Lat,Long: .N, .E
+Fix quality (0 = invalid, 1 = fix, 2..8): G
+Satellites: 
+Horizontal dilution: 0.0
+Altitude: 0.0M
+Height of geoid: 0.0M
+Time in seconds since last DGPS update: 
+DGPS station ID number: 0000
+=====================================GIGGA EOF========================================
+Checksum Error Detected
+========================================GIGLL========================================
+Lat,Long: .N, .E
+Fix taken at: 06:52:21 UTC
+Status (A=OK,V=NOT OK): V
+Mode (A=Autonomous, D=Differential, E=Estimated, N=Data not valid, L= Looking): L
+===================================GIGLL EOF========================================
+Checksum Error Detected
+Checksum Error Detected
+========================================GIRMC========================================
+Fix taken at: Wed Apr 09 06:52:21 2003 UTC
+Status (A=OK,V=KO): V
+Lat,Long: .N, .E
+Speed (knots): 000.0
+Track angle (deg): 000.0
+Magnetic variation:  
+Mode (A=Autonomous, D=Differential, E=Estimated, N=Data not valid): N
+====================================GIRMC EOF========================================
+Checksum Error Detected
+Checksum Error Detected
+Checksum Error Detected
+========================================GIGGA========================================
+Fix taken at: 06:52:22 UTC
+Lat,Long: .N, .E
+Fix quality (0 = invalid, 1 = fix, 2..8): G
+Satellites: 
+Horizontal dilution: 0.0
+Altitude: 0.0M
+Height of geoid: 0.0M
+Time in seconds since last DGPS update: 
+DGPS station ID number: 0000
+=====================================GIGGA EOF========================================
+Checksum Error Detected
+========================================GIGLL========================================
+Lat,Long: .N, .E
+Fix taken at: 06:52:22 UTC
+Status (A=OK,V=NOT OK): V
+Mode (A=Autonomous, D=Differential, E=Estimated, N=Data not valid, L= Looking): L
+===================================GIGLL EOF========================================
+Checksum Error Detected
+Checksum Error Detected
+========================================GIRMC========================================
+Fix taken at: Wed Apr 09 06:52:22 2003 UTC
+Status (A=OK,V=KO): V
+Lat,Long: .N, .E
+Speed (knots): 000.0
+Track angle (deg): 000.0
+Magnetic variation:  
+Mode (A=Autonomous, D=Differential, E=Estimated, N=Data not valid): N
+====================================GIRMC EOF========================================
+Checksum Error Detected
+Checksum Error Detected
+Checksum Error Detected
+========================================GIGGA========================================
+Fix taken at: 06:52:23 UTC
+Lat,Long: .N, .E
+Fix quality (0 = invalid, 1 = fix, 2..8): G
+Satellites: 
+Horizontal dilution: 0.0
+Altitude: 0.0M
+Height of geoid: 0.0M
+Time in seconds since last DGPS update: 
+DGPS station ID number: 0000
+=====================================GIGGA EOF========================================
+Checksum Error Detected
+========================================GIGLL========================================
+Lat,Long: .N, .E
+Fix taken at: 06:52:23 UTC
+Status (A=OK,V=NOT OK): V
+Mode (A=Autonomous, D=Differential, E=Estimated, N=Data not valid, L= Looking): L
+===================================GIGLL EOF========================================
+Checksum Error Detected
+Checksum Error Detected
+========================================GIGSV========================================
+Satellite total no of messages(1-9): 2
+Satellite message number: 1
+Satellites in view: 07
+Satellite PRN: 06
+Elevation (in deg): 00°
+Azimuth (deg): 000
+SNR (C/No) 00-99dB: 42 dB
+====================================GIGSV EOF========================================
+Checksum Error Detected
+========================================GIGSV========================================
+Satellite total no of messages(1-9): 2
+Satellite message number: 2
+Satellites in view: 07
+Satellite PRN: 07
+Elevation (in deg): 00°
+Azimuth (deg): 000
+SNR (C/No) 00-99dB: 24 dB
+====================================GIGSV EOF========================================
+Checksum Error Detected
+========================================GIRMC========================================
+Fix taken at: Wed Apr 09 06:52:23 2003 UTC
+Status (A=OK,V=KO): V
+Lat,Long: .N, .E
+Speed (knots): 000.0
+Track angle (deg): 000.0
+Magnetic variation:  
+Mode (A=Autonomous, D=Differential, E=Estimated, N=Data not valid): N
+====================================GIRMC EOF========================================
+Checksum Error Detected
+Checksum Error Detected
+Checksum Error Detected
+========================================GIGGA========================================
+Fix taken at: 06:52:24 UTC
+Lat,Long: .N, .E
+Fix quality (0 = invalid, 1 = fix, 2..8): G
+Satellites: 
+Horizontal dilution: 0.0
+Altitude: 0.0M
+Height of geoid: 0.0M
+Time in seconds since last DGPS update: 
+DGPS station ID number: 0000
+=====================================GIGGA EOF========================================
+Checksum Error Detected
+========================================GIGLL========================================
+Lat,Long: .N, .E
+Fix taken at: 06:52:24 UTC
+Status (A=OK,V=NOT OK): V
+Mode (A=Autonomous, D=Differential, E=Estimated, N=Data not valid, L= Looking): L
+===================================GIGLL EOF========================================
+Checksum Error Detected
+Checksum Error Detected
+========================================GIRMC========================================
+Fix taken at: Wed Apr 09 06:52:24 2003 UTC
+Status (A=OK,V=KO): V
+Lat,Long: .N, .E
+Speed (knots): 000.0
+Track angle (deg): 000.0
+Magnetic variation:  
+Mode (A=Autonomous, D=Differential, E=Estimated, N=Data not valid): N
+====================================GIRMC EOF========================================
+Checksum Error Detected
+Checksum Error Detected
+Checksum Error Detected
+Checksum Error Detected
+========================================GIGGA========================================
+Fix taken at: 06:52:25 UTC
+Lat,Long: .N, .E
+Fix quality (0 = invalid, 1 = fix, 2..8): G
+Satellites: 
+Horizontal dilution: 0.0
+Altitude: 0.0M
+Height of geoid: 0.0M
+Time in seconds since last DGPS update: 
+DGPS station ID number: 0000
+=====================================GIGGA EOF========================================
+Checksum Error Detected
+========================================GIGLL========================================
+Lat,Long: .N, .E
+Fix taken at: 06:52:25 UTC
+Status (A=OK,V=NOT OK): V
+Mode (A=Autonomous, D=Differential, E=Estimated, N=Data not valid, L= Looking): L
+===================================GIGLL EOF========================================
+Checksum Error Detected
+Checksum Error Detected
+========================================GIRMC========================================
+Fix taken at: Wed Apr 09 06:52:25 2003 UTC
+Status (A=OK,V=KO): V
+Lat,Long: .N, .E
+Speed (knots): 000.0
+Track angle (deg): 000.0
+Magnetic variation:  
+Mode (A=Autonomous, D=Differential, E=Estimated, N=Data not valid): N
+====================================GIRMC EOF========================================
+Checksum Error Detected
+Checksum Error Detected
+Checksum Error Detected
+Checksum Error Detected
+========================================GIGGA========================================
+Fix taken at: 06:52:26 UTC
+Lat,Long: .N, .E
+Fix quality (0 = invalid, 1 = fix, 2..8): G
+Satellites: 
+Horizontal dilution: 0.0
+Altitude: 0.0M
+Height of geoid: 0.0M
+Time in seconds since last DGPS update: 
+DGPS station ID number: 0000
+=====================================GIGGA EOF========================================
+Checksum Error Detected
+========================================GIGLL========================================
+Lat,Long: .N, .E
+Fix taken at: 06:52:26 UTC
+Status (A=OK,V=NOT OK): V
+Mode (A=Autonomous, D=Differential, E=Estimated, N=Data not valid, L= Looking): L
+===================================GIGLL EOF========================================
+Checksum Error Detected
+Checksum Error Detected
+========================================GIGSV========================================
+Satellite total no of messages(1-9): 2
+Satellite message number: 1
+Satellites in view: 07
+Satellite PRN: 06
+Elevation (in deg): 00°
+Azimuth (deg): 000
+SNR (C/No) 00-99dB: 43 dB
+====================================GIGSV EOF========================================
+Checksum Error Detected
+========================================GIGSV========================================
+Satellite total no of messages(1-9): 2
+Satellite message number: 2
+Satellites in view: 07
+Satellite PRN: 07
+Elevation (in deg): 00°
+Azimuth (deg): 000
+SNR (C/No) 00-99dB: 24 dB
+====================================GIGSV EOF========================================
+Checksum Error Detected
+========================================GIRMC========================================
+Fix taken at: Wed Apr 09 06:52:26 2003 UTC
+Status (A=OK,V=KO): V
+Lat,Long: .N, .E
+Speed (knots): 000.0
+Track angle (deg): 000.0
+Magnetic variation:  
+Mode (A=Autonomous, D=Differential, E=Estimated, N=Data not valid): N
+====================================GIRMC EOF========================================
+Checksum Error Detected
+Checksum Error Detected
+Checksum Error Detected
+========================================GIGGA========================================
+Fix taken at: 06:52:27 UTC
+Lat,Long: .N, .E
+Fix quality (0 = invalid, 1 = fix, 2..8): G
+Satellites: 
+Horizontal dilution: 0.0
+Altitude: 0.0M
+Height of geoid: 0.0M
+Time in seconds since last DGPS update: 
+DGPS station ID number: 0000
+=====================================GIGGA EOF========================================
+Checksum Error Detected
+========================================GIGLL========================================
+Lat,Long: .N, .E
+Fix taken at: 06:52:27 UTC
+Status (A=OK,V=NOT OK): V
+Mode (A=Autonomous, D=Differential, E=Estimated, N=Data not valid, L= Looking): L
+===================================GIGLL EOF========================================
+Checksum Error Detected
+Checksum Error Detected
+========================================GIRMC========================================
+Fix taken at: Wed Apr 09 06:52:27 2003 UTC
+Status (A=OK,V=KO): V
+Lat,Long: .N, .E
+Speed (knots): 000.0
+Track angle (deg): 000.0
+Magnetic variation:  
+Mode (A=Autonomous, D=Differential, E=Estimated, N=Data not valid): N
+====================================GIRMC EOF========================================
+Checksum Error Detected
+Checksum Error Detected
+Checksum Error Detected
+========================================GIGGA========================================
+Fix taken at: 06:52:28 UTC
+Lat,Long: .N, .E
+Fix quality (0 = invalid, 1 = fix, 2..8): G
+Satellites: 
+Horizontal dilution: 0.0
+Altitude: 0.0M
+Height of geoid: 0.0M
+Time in seconds since last DGPS update: 
+DGPS station ID number: 0000
+=====================================GIGGA EOF========================================
+Checksum Error Detected
+========================================GIGLL========================================
+Lat,Long: .N, .E
+Fix taken at: 06:52:28 UTC
+Status (A=OK,V=NOT OK): V
+Mode (A=Autonomous, D=Differential, E=Estimated, N=Data not valid, L= Looking): L
+===================================GIGLL EOF========================================
+Checksum Error Detected
+Checksum Error Detected
+========================================GIRMC========================================
+Fix taken at: Wed Apr 09 06:52:28 2003 UTC
+Status (A=OK,V=KO): V
+Lat,Long: .N, .E
+Speed (knots): 000.0
+Track angle (deg): 000.0
+Magnetic variation:  
+Mode (A=Autonomous, D=Differential, E=Estimated, N=Data not valid): N
+====================================GIRMC EOF========================================
+Checksum Error Detected
+Checksum Error Detected
+Checksum Error Detected
+========================================GIGGA========================================
+Fix taken at: 06:52:29 UTC
+Lat,Long: .N, .E
+Fix quality (0 = invalid, 1 = fix, 2..8): G
+Satellites: 
+Horizontal dilution: 0.0
+Altitude: 0.0M
+Height of geoid: 0.0M
+Time in seconds since last DGPS update: 
+DGPS station ID number: 0000
+=====================================GIGGA EOF========================================
+Checksum Error Detected
+========================================GIGLL========================================
+Lat,Long: .N, .E
+Fix taken at: 06:52:29 UTC
+Status (A=OK,V=NOT OK): V
+Mode (A=Autonomous, D=Differential, E=Estimated, N=Data not valid, L= Looking): L
+===================================GIGLL EOF========================================
+Checksum Error Detected
+Checksum Error Detected
+========================================GIGSV========================================
+Satellite total no of messages(1-9): 2
+Satellite message number: 1
+Satellites in view: 07
+Satellite PRN: 06
+Elevation (in deg): 00°
+Azimuth (deg): 000
+SNR (C/No) 00-99dB: 42 dB
+====================================GIGSV EOF========================================
+Checksum Error Detected
+========================================GIGSV========================================
+Satellite total no of messages(1-9): 2
+Satellite message number: 2
+Satellites in view: 07
+Satellite PRN: 07
+Elevation (in deg): 00°
+Azimuth (deg): 000
+SNR (C/No) 00-99dB: 24 dB
+====================================GIGSV EOF========================================
+Checksum Error Detected
+========================================GIRMC========================================
+Fix taken at: Wed Apr 09 06:52:29 2003 UTC
+Status (A=OK,V=KO): V
+Lat,Long: .N, .E
+Speed (knots): 000.0
+Track angle (deg): 000.0
+Magnetic variation:  
+Mode (A=Autonomous, D=Differential, E=Estimated, N=Data not valid): N
+====================================GIRMC EOF========================================
+Checksum Error Detected
+Checksum Error Detected
+Checksum Error Detected
+========================================GIGGA========================================
+Fix taken at: 06:52:30 UTC
+Lat,Long: .N, .E
+Fix quality (0 = invalid, 1 = fix, 2..8): G
+Satellites: 
+Horizontal dilution: 0.0
+Altitude: 0.0M
+Height of geoid: 0.0M
+Time in seconds since last DGPS update: 
+DGPS station ID number: 0000
+=====================================GIGGA EOF========================================
+Checksum Error Detected
+========================================GIGLL========================================
+Lat,Long: .N, .E
+Fix taken at: 06:52:30 UTC
+Status (A=OK,V=NOT OK): V
+Mode (A=Autonomous, D=Differential, E=Estimated, N=Data not valid, L= Looking): L
+===================================GIGLL EOF========================================
+Checksum Error Detected
+Checksum Error Detected
+========================================GIRMC========================================
+Fix taken at: Wed Apr 09 06:52:30 2003 UTC
+Status (A=OK,V=KO): V
+Lat,Long: .N, .E
+Speed (knots): 000.0
+Track angle (deg): 000.0
+Magnetic variation:  
+Mode (A=Autonomous, D=Differential, E=Estimated, N=Data not valid): N
+====================================GIRMC EOF========================================
+Checksum Error Detected
+Checksum Error Detected
+Checksum Error Detected
+Checksum Error Detected
+========================================GIGGA========================================
+Fix taken at: 06:52:31 UTC
+Lat,Long: .N, .E
+Fix quality (0 = invalid, 1 = fix, 2..8): G
+Satellites: 
+Horizontal dilution: 0.0
+Altitude: 0.0M
+Height of geoid: 0.0M
+Time in seconds since last DGPS update: 
+DGPS station ID number: 0000
+=====================================GIGGA EOF========================================
+Checksum Error Detected
+========================================GIGLL========================================
+Lat,Long: .N, .E
+Fix taken at: 06:52:31 UTC
+Status (A=OK,V=NOT OK): V
+Mode (A=Autonomous, D=Differential, E=Estimated, N=Data not valid, L= Looking): L
+===================================GIGLL EOF========================================
+Checksum Error Detected
+Checksum Error Detected
+========================================GIRMC========================================
+Fix taken at: Wed Apr 09 06:52:31 2003 UTC
+Status (A=OK,V=KO): V
+Lat,Long: .N, .E
+Speed (knots): 000.0
+Track angle (deg): 000.0
+Magnetic variation:  
+Mode (A=Autonomous, D=Differential, E=Estimated, N=Data not valid): N
+====================================GIRMC EOF========================================
+Checksum Error Detected
+Checksum Error Detected
+Checksum Error Detected
+Checksum Error Detected
+Checksum Error Detected
+========================================GIGGA========================================
+Fix taken at: 06:52:32 UTC
+Lat,Long: .N, .E
+Fix quality (0 = invalid, 1 = fix, 2..8): G
+Satellites: 
+Horizontal dilution: 0.0
+Altitude: 0.0M
+Height of geoid: 0.0M
+Time in seconds since last DGPS update: 
+DGPS station ID number: 0000
+=====================================GIGGA EOF========================================
+Checksum Error Detected
+========================================GIGLL========================================
+Lat,Long: .N, .E
+Fix taken at: 06:52:32 UTC
+Status (A=OK,V=NOT OK): V
+Mode (A=Autonomous, D=Differential, E=Estimated, N=Data not valid, L= Looking): L
+===================================GIGLL EOF========================================
+Checksum Error Detected
+Checksum Error Detected
+========================================GIGSV========================================
+Satellite total no of messages(1-9): 2
+Satellite message number: 1
+Satellites in view: 07
+Satellite PRN: 06
+Elevation (in deg): 00°
+Azimuth (deg): 000
+SNR (C/No) 00-99dB: 43 dB
+====================================GIGSV EOF========================================
+Checksum Error Detected
+========================================GIGSV========================================
+Satellite total no of messages(1-9): 2
+Satellite message number: 2
+Satellites in view: 07
+Satellite PRN: 07
+Elevation (in deg): 00°
+Azimuth (deg): 000
+SNR (C/No) 00-99dB: 25 dB
+====================================GIGSV EOF========================================
+Checksum Error Detected
+========================================GIRMC========================================

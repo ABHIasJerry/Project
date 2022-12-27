@@ -1,0 +1,2 @@
+https://www.hackster.io/BnBe_Club/video-capture-using-the-esp32-cam-board-c61ad7
+https://www.instructables.com/Video-Capture-Using-the-ESP32-CAM-Board/
