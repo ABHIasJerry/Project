@@ -1,7 +1,7 @@
-import RPi.GPIO as GPIO
+# import RPi.GPIO as GPIO
 import time
 import os
-
+global GPIO
 # sensor pin define
 buzzer = 14
 touch = 26
@@ -57,21 +57,18 @@ def read_touchsensor():
     if (GPIO.input(touch) == True):
         touchstatus = not touchstatus
         if touchstatus:
-            print
-            "Turn on relay"
-    print
-    "\n"
+            print(
+            "Turn on relay")
+    print(
+    "\n")
     buzzer_on()
     relay_on()
+    #     else:
+    #         print("Turn off relay")
+    #         print("\n")
+    # buzzer_on()
+    # relay_off()
 
-else:
-print
-"Turn off relay"
-print
-"\n"
-buzzer_on()
-relay_off()
-pass
 
 
 # main loop
