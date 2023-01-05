@@ -51,6 +51,12 @@ for m, n in matches:
     if m.distance < 0.75*n.distance:   # 75% match is acceptable
         good_match.append([m])
 print('Good matches count: ', len(good_match))  # Good matches value
+if len(good_match) > 50:
+    print('Match is acceptable')
+elif len(good_match) > 90:
+    print('Match is great')
+else:
+    print('Match is poor')
 img3 = cv2.drawMatchesKnn(img1, kp1, img2, kp2, good_match, None, flags=2)
 # IMG 3
 scale_width_2 = screen_res[0] / img3.shape[1]
