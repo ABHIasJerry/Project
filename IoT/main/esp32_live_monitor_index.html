@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html><head><title>IoT Weather Station</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<link rel="apple-touch-icon-precomposed" sizes="57x57" href="apple-touch-icon-57x57.png" />
+<style>.center-div { margin: auto; width: 50%; border: 3px solid green; padding: 10px;}
+.live-icon {display: inline-block;position: relative;top: calc(50% - 5px);background-color: red;
+            width: 10px;height: 10px;margin-left: 20px;border: 1px solid rgba(black, 0.1);
+            border-radius: 50%;z-index: 1;
+  &:before {content: "";display: block;position: absolute;background-color: rgba(red, 0.6);
+            width: 100%;height: 100%;border-radius: 50%;animation: live 2s ease-in-out infinite;z-index: -1;}}
+@keyframes live {0% {transform: scale(1, 1);}100% {transform: scale(3.5, 3.5);background-color: rgba(red, 0);}}
+body {background-color: lightskyblue;}
+footer {text-align: center;padding: 1px;background-color: DarkSalmon;color: white;}
+h2 {font-size: 30px;}
+h3 {font-size: 20px;}
+h2, h3 {width: 50%;height: 50px;margin: 0;padding: 0;display: inline;}</style>
+<script src=\"https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js\"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script></head>
+<body><h1 class="center-div">&#x26C5; Realtime Weather Station Panel </h1>
+<a href="#" class="btn btn_live">Live Streaming Data<span class="live-icon"></span></a>
+<h3 align="float" id="datetime"></h3> <!-- Live Timestamp -->
+
+<!-- This is a Frame for 1 single sensor data -->
+<p></p>
+<h2> ------------ BME DataFrame --------------- </h2>
+<p></p>
+<div style="clear: both">
+    <h3 style="float: left">Temperature  [°C]: </h3>
+    <h3 style="float: right" id=\"temp\">--</h3>
+</div>
+<div style="clear: both">
+    <h3 style="float: left">Humidity  [%]: </h3>
+    <h3 style="float: right" id=\"hum\">--</h3>
+</div>
+<div style="clear: both">
+    <h3 style="float: left">Pressure  [hPa]: </h3>
+    <h3 style="float: right" id=\"pres\">--</h3>
+</div>
+<div style="clear: both">
+    <h3 style="float: left">Gas  [KOhms]: </h3>
+    <h3 style="float: right" id=\"gas\">--</h3>
+</div>
+<div style="clear: both">
+    <h3 style="float: left">Sea Altitude  [m @ sea-level]: </h3>
+    <h3 style="float: right" id=\"sea_alt\">--</h3>
+</div><p>.</p><hr />
+<!------------------- Frame Ends ---------------------->
+
+<!-- This is a Frame for 1 single sensor data -->
+<p></p>
+<h2> ------------ GPS DataFrame --------------- </h2>
+<p></p>
+<div style="clear: both">
+    <h3 style="float: left">Latitude  : </h3>
+    <h3 style="float: right" id=\"lat\">--</h3>
+</div>
+<div style="clear: both">
+    <h3 style="float: left">Longitude  : </h3>
+    <h3 style="float: right" id=\"long\">--</h3>
+</div>
+<div style="clear: both">
+    <h3 style="float: left">Altitude  [m]: </h3>
+    <h3 style="float: right" id=\"alt\">--</h3>
+</div>
+<div style="clear: both">
+    <h3 style="float: left">Timestamp  [UTC]: </h3>
+    <h3 style="float: right" id=\"time\">--</h3>
+</div>
+<div style="clear: both">
+    <h3 style="float: left">Date: </h3>
+    <h3 style="float: right" id=\"date\">--</h3>
+</div><p>.</p><hr />
+<!------------------- Frame Ends ---------------------->
+
+<!-- This is a Frame for 1 single sensor data -->
+<p></p>
+<h2> ------------ AQI DataFrame --------------- </h2>
+<p></p>
+<div style="clear: both">
+    <h3 style="float: left">Voltage  [V]: </h3>
+    <h3 style="float: right" id=\"vlt\">--</h3>
+</div>
+<div style="clear: both">
+    <h3 style="float: left">Dust Density  [mg x m3]: </h3>
+    <h3 style="float: right" id=\"dd\">--</h3>
+</div>
+<div style="clear: both">
+    <h3 style="float: left">PPM  [ppm]: </h3>
+    <h3 style="float: right" id=\"ppm\">--</h3>
+</div><p>.</p><hr />
+<!------------------- Frame Ends ---------------------->
+
+<!-- This is a Frame for 1 single sensor data -->
+<p></p>
+<h2> ------------ TOF DataFrame --------------- </h2>
+<p></p>
+<div style="clear: both">
+    <h3 style="float: left">Lidar Distance  [m]: </h3>
+    <h3 style="float: right" id=\"tof\">--</h3>
+</div><p>.</p><hr />
+<!------------------- Frame Ends ---------------------->
+
+<!-- This is a Frame for 1 single sensor data -->
+<p></p>
+<h2> ------------ UV DataFrame --------------- </h2>
+<p></p>
+<div style="clear: both">
+    <h3 style="float: left">UV-Index [mW/cm^2]: </h3>
+    <h3 style="float: right" id=\"uv\">--</h3>
+</div><p>.</p><hr />
+<!------------------- Frame Ends ---------------------->
+
+<!-- This is a Frame for 1 single sensor data -->
+<p></p>
+<h2> ------------ MPU DataFrame --------------- </h2>
+<p></p>
+<div style="clear: both">
+    <h3 style="float: left">Acceleration X-axis: </h3>
+    <h3 style="float: right" id=\"acx\">--</h3>
+</div>
+<div style="clear: both">
+    <h3 style="float: left">Acceleration Y-axis </h3>
+    <h3 style="float: right" id=\"acy\">--</h3>
+</div>
+<div style="clear: both">
+    <h3 style="float: left">Acceleration Z-axis: </h3>
+    <h3 style="float: right" id=\"acz\">--</h3>
+</div>
+<div style="clear: both">
+    <h3 style="float: left">Gyroscope X-axis: </h3>
+    <h3 style="float: right" id=\"gyx\">--</h3>
+</div>
+<div style="clear: both">
+    <h3 style="float: left">Gyroscope X-axis: </h3>
+    <h3 style="float: right" id=\"gyy\">--</h3>
+</div>
+<div style="clear: both">
+    <h3 style="float: left">Gyroscope X-axis: </h3>
+    <h3 style="float: right" id=\"gyz\">--</h3>
+</div><p>.</p><hr />
+<!------------------- Frame Ends ---------------------->
+
+<!-- This is a Frame for 1 single sensor data -->
+<p></p>
+<h2> ------------ General DataFrame --------------- </h2>
+<p></p>
+<div style="clear: both">
+    <h3 style="float: left">Battery Percentage  [%]: </h3>
+    <h3 style="float: right" id=\"batt\">--</h3>
+</div>
+<div style="clear: both">
+    <h3 style="float: left">Load Current  [mAm3]: </h3>
+    <h3 style="float: right" id=\"current\">--</h3>
+</div>
+<div style="clear: both">
+    <h3 style="float: left">IP Address  : </h3>
+    <h3 style="float: right" id=\"ip\">--</h3>
+</div>
+<div style="clear: both">
+    <h3 style="float: left">System Status: </h3>
+    <h3 style="float: right" id=\"status\">--</h3>
+</div><p>.</p><hr />
+<!------------------- Frame Ends ---------------------->
+<script>$(document).ready(function(){
+setInterval(getData,1000)
+function getData(){
+$.ajax({type:\"GET\",url:\"data\",success: function(data){var s = data.split(\'-\')
+$('#temp').html(s[0])
+$('#hum').html(s[1])}}).done(function() {console.log('ok')})}})</script>
+<script>window.onload = function() {
+    setInterval(function(){
+        var date = new Date();
+        var displayDate = date.toLocaleDateString();
+        var displayTime = date.toLocaleTimeString();
+        document.getElementById('datetime').innerHTML = displayDate + " " + displayTime;
+    }, 1000); // 1000 milliseconds = 1 second
+}</script>
+<footer><p> © 2025. All Rights Reserved. &#128578; A.G. </p></footer></body></html>
+
+
+
