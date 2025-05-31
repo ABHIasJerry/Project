@@ -3,14 +3,16 @@
 <head>
   <title> IOT Weather Station Server </title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <link rel="icon" href="data:,">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
-  <h2>Realtime IOT Weather Station WEB-SERVER </h2>
-  
+  <h2><i class="fas fa-microchip fa-thin"></i>  Realtime IoT Weather Station WEB-SERVER </h2>
+  <h3 align="float" id="datetime"> ... getting system datetime! </h3> <!-- Live Timestamp -->
+
   <!-- original tab -->
   <!-- link: https://microcontrollerslab.com/esp8266-nodemcu-web-server-using-littlefs-flash-file-system/ -->
   <!-- <div class="content">
@@ -47,6 +49,28 @@
   <p><i class="fas fa-database fa-1x"></i> Altitude : <strong> %GPIO_STATE%</strong> <srong>  meter-sea-level</srong></p>
   </div></div></div>
 
+      <!-- GPS Tab -->
+  <div class="content">
+    <div class="card-grid">
+        <div class="card">
+  <p><i class="fas fa-map-pin fa-2x"></i> <strong>  NEO-6M GPS DATA </strong></p>
+  <p>
+  <p><i class="fas fa-database fa-1x"></i> Latitide : <strong> %GPIO_STATE%</strong> <srong>  °</srong></p>
+  <p><i class="fas fa-database fa-1x"></i> Longitude : <strong> %GPIO_STATE%</strong> <srong>  °</srong></p>
+  <p><i class="fas fa-database fa-1x"></i> Speed : <strong> %GPIO_STATE%</strong> <srong>  Km/h</srong></p>
+  <p><i class="fas fa-database fa-1x"></i> Altitude : <strong> %GPIO_STATE%</strong> <srong>  meters</srong></p>
+  <p><i class="fas fa-database fa-1x"></i> Satellites : <strong> %GPIO_STATE%</strong> <srong>  /24</srong></p>
+  </div></div></div>
+
+<script>window.onload = function() {
+    setInterval(function(){
+        var date = new Date();
+        var displayDate = date.toLocaleDateString();
+        var displayTime = date.toLocaleTimeString();
+        document.getElementById('datetime').innerHTML = displayDate + " " + displayTime;
+    }, 1000); // 1000 milliseconds = 1 second
+}</script>
+<footer><p> © 2025. All Rights Reserved. &#128578; A.G. </p></footer>
 </body></html>
 
 
