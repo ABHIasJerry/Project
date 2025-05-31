@@ -4,6 +4,7 @@ Github link : https://github.com/yash-sanghvi/ESP32/tree/master [.]
 I2C links : https://www.chippiko.com/list-of-device-i2c-address [.]
 https://randomnerdtutorials.com/esp-now-auto-pairing-esp32-esp8266/
 https://www.prisma.io/dataguide/mongodb/setting-up-a-local-mongodb-database
+font-icon-link: https://fontawesome.com/icons/database?f=classic&s=solid
 /* ----------------------------------------------------------------
 
 /* -------- MCU MAC Addresses ---------------------
